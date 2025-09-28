@@ -1440,6 +1440,16 @@ footer .copyright .pro-links i:hover{
         text-align: left;
     }
 
+    #registration .reminder .time{
+    display: flex;
+    margin: 40px 10px 10px 10px;
+    }
+
+    #registration .reminder .apply{
+    margin: 10px 10px 10px 15px;
+    }
+
+
     #experts h1{
         font-size: 1.8rem;
     }
@@ -1466,10 +1476,10 @@ footer .copyright .pro-links i:hover{
     }
 
     .event-container {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 20px; /* spacing between items */
-    margin-bottom: 40px; /* add space below the event section */
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px; /* spacing between items */
+        margin-bottom: 40px; /* add space below the event section */
       }
 
   .event-details {
