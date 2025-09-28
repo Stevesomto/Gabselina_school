@@ -1282,7 +1282,7 @@ footer .copyright .pro-links i:hover{
 
 /* SMALL DEVICES */
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
    
     nav{
         padding: 15px 20px;
@@ -1442,7 +1442,8 @@ footer .copyright .pro-links i:hover{
 
     #registration .reminder .time{
     /* display: flex; */
-    margin: 40px 2px 10px 10px;
+    /* margin: 40px 0;
+    width: 100%; */
     }
 
     #registration .reminder .apply{
