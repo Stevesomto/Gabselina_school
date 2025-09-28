@@ -325,6 +325,7 @@ nav .navigation ul li a:hover{
     border-radius: 20px; 
     width: 70%;
     font-family: 'Poppins', sans-serif;
+    font-weight: 600;
     font-size: 1rem;
 }
 
@@ -942,12 +943,14 @@ footer .copyright .pro-links i:hover{
     width: 70%;
     font-family: 'Poppins', sans-serif;
     font-size: 1rem;
+    text-align: center;
 }
 
 .aim{
     background-color: var(--secondary-color);
     color: #000000;
     font-weight: 600;
+    text-align: center;
 }
 
 .core-values{
@@ -1508,7 +1511,7 @@ footer .copyright .pro-links i:hover{
   /* ABOUT US PAGE */
   .aboutus-text{
     padding: 30vw 10vw;
-    font-size: 1.2rem; 
+    font-size: 1.5rem; 
     }
 
     .aboutustext p{
@@ -1544,10 +1547,15 @@ footer .copyright .pro-links i:hover{
     justify-content: center;
     }
 
-    .aim, .mission, .vision{
+    .vision-mission2 .aim, .mission, .vision{
     width: 100%;
     margin: 10px 0;
+    text-align: center;
     }
+
+    .vision-mission2 .aim p, .mission p, .vision p{
+    text-align: center;
+    }   
 
     .core-values{
     padding: 5vw;
@@ -1577,7 +1585,7 @@ footer .copyright .pro-links i:hover{
     background-size: cover;
     text-align: center;
     color: #ffffff;
-    font-size: 2rem; 
+    font-size: 1.5rem; 
     }
 
     /* GALLERY PAGE */
@@ -1589,11 +1597,11 @@ footer .copyright .pro-links i:hover{
     background-size: cover;
     text-align: center;
     color: #ffffff;
-    font-size: 2rem; 
+    font-size: 1.5rem; 
     }
 
     .gallerytext h2{
-        font-size: 1.9rem;
+        font-size: 1.8rem;
     }
 
 
