@@ -1444,6 +1444,7 @@ footer .copyright .pro-links i:hover{
     /* display: flex; */
     /* margin: 40px 0;
     width: 100%; */
+    display: none;
     }
 
     #registration .reminder .apply{
